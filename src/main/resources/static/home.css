@@ -1,0 +1,70 @@
+body{
+    margin:30px;
+    color:#283655;
+}
+input{
+    border:1px solid;
+}
+.hidden{
+    display:none;
+}
+
+.task_form{
+    padding:0px 10px 10px 10px;
+    border:1px solid #4D648D;
+}
+.task_form form{
+    display:grid;
+    grid-template-columns:50px 1fr;
+    width: 300px;
+}
+.task_form input[type="date"],select{
+    width: 300px;
+}
+
+ input[type=submit]{
+    margin: 10px 5px 10px 5px;
+    cursor: pointer;
+}
+
+.update_button{
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+    width: 50px;
+}
+
+.delete_button{
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+    width: 50px;
+}
+
+.update_button2{
+    margin: 20px 10px 2px 5px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.cancel_button{
+    margin: 2px 5px 10px 5px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 75%;
+}
+
+.taskList table{
+    width:35%;
+    border:1px solid;
+    border-collapse: collapse;
+}
+
+
+#updateDialog{
+    display:none;
+    background-color:#FFFFFF;
+    border:2px double;
+    width:500px;
+    position:fixed;
+    top:120px;
+    z-index:9999;
+}
